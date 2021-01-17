@@ -42,7 +42,8 @@ export default {
                 src: SiteMaintenance,
                 style: {
                     height:45,
-                    width:45
+                    width:45,
+                    alt:"Site Maintenance"
                 }
             }
         },
@@ -53,7 +54,9 @@ export default {
                 src: Grading,
                 style: {
                     height:40,
-                    width:40
+                    width:40,
+                    alt:"Grading"
+
                 }
             }
         },
@@ -64,7 +67,9 @@ export default {
                 src: Excavator,
                 style: {
                     height:45,
-                    width:45
+                    width:45,
+                    alt:"Excavator"
+
                 }
             }
         },
@@ -75,7 +80,9 @@ export default {
                 src: Foundation,
                 style: {
                     height:45,
-                    width:45
+                    width:45,
+                    alt:"Concrete Foundation"
+
                 }
             }
         },
@@ -86,7 +93,9 @@ export default {
                 src: Driveway,
                 style: {
                     height:45,
-                    width:45
+                    width:45,
+                    alt:"Driveway Concrete"
+
                 }
             }
         },
@@ -97,7 +106,9 @@ export default {
                 src: CustomConcrete,
                 style: {
                     height:45,
-                    width:45
+                    width:45,
+                    alt:"Custom Concrete"
+
                 }
             }
         }
