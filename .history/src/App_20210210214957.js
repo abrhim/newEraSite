@@ -1,10 +1,9 @@
-import { Nav, Hero } from "./components";
+import Meta from "./components/Meta";
 
 function App() {
   return (
     <div className="App">
-      <Nav />
-      <Hero />
+      <Meta />
     </div>
   );
 }

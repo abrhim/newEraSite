@@ -1,10 +1,9 @@
-import { Nav, Hero } from "./components";
+import Nav from "./components";
 
 function App() {
   return (
     <div className="App">
       <Nav />
-      <Hero />
     </div>
   );
 }
