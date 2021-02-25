@@ -8,7 +8,7 @@ export const Hero = () => {
           <div className="overlay">
             <div className="container">
               <div className="row">
-                <div className="col-md-8 col-md-offset-2 intro-text">
+                <div className="col-md-6 col-md-offset-2 intro-text">
                   <h1>
                     New Era
                     <br /> Contracting
@@ -33,7 +33,7 @@ export const Hero = () => {
         <div className="container">
           <div className="row">
             <div className="col-xs-12 col-md-6 col-md-offset-1">
-              <h3>Cost for your project</h3>
+              <h3>Cost for your home project</h3>
               <p>
                 Get started today and complete our form to request your free
                 estimate
