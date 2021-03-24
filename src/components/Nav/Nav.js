@@ -6,7 +6,7 @@ export const Nav = () => {
         <div className="navbar-header">
           <button
             type="button"
-            className="navbar-toggle collapsed"
+            className="navbar-toggle collapsed col-sm"
             data-toggle="collapse"
             data-target="#bs-example-navbar-collapse-1"
           >
@@ -15,10 +15,10 @@ export const Nav = () => {
             <span className="icon-bar"></span>{" "}
             <span className="icon-bar"></span>{" "}
           </button>
-          <a className="navbar-brand page-scroll" href="#page-top">
+          <a className="navbar-brand page-scroll col-sm" href="#page-top">
             New Era
           </a>
-          <div className="phone">
+          <div className="phone col-sm">
             <a href="tel:5125060122">
               <span>Call Today</span>512-506-0122
             </a>

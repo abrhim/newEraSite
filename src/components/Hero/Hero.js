@@ -8,13 +8,13 @@ export const Hero = () => {
           <div className="overlay">
             <div className="container">
               <div className="row">
-                <div className="col-md-6 col-md-offset-2 intro-text">
+                <div className="col-md-12 intro-text">
                   <h1>
                     New Era
                     <br /> Contracting
                   </h1>
                   <p>
-                    Austin Area residential construction contracting working for
+                    Austin Area residential construction contractor working for
                     you.
                   </p>
                   {/* <a

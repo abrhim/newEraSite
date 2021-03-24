@@ -1,14 +1,7 @@
 import React, { useState } from "react";
-
+import { sendEmail } from "./sendEmail";
 export const Contact = () => {
   const [form, setForm] = useState({ email: null, message: null, name: null });
-
-  const sendEmail = () => {
-    const { email, message, name } = form;
-    if (email && message && name) {
-      // send email
-    }
-  };
 
   const onChange = (input) =>
     setForm((f) => {
@@ -69,7 +62,11 @@ export const Contact = () => {
                 <p className="help-block text-danger"></p>
               </div>
               <div id="success"></div>
-              <button type="submit" className="btn btn-custom btn-lg">
+              <button
+                onClick={() => sendEmail(form)}
+                className="btn btn-custom btn-lg"
+                type="button"
+              >
                 Send Message
               </button>
             </form>
