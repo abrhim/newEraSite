@@ -2,6 +2,8 @@
 # unless otherwise overridden by more specific contexts.
 [build]
     functions = "functions/"
+ [build.environment]
+    emailJSServiceId = "service_ms0k1ki"
     
 
   # Directory to change to before starting a build.

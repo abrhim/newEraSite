@@ -27,6 +27,7 @@ export const Contact = () => {
                     <input
                       type="text"
                       id="name"
+                      name="name"
                       className="form-control"
                       placeholder="Name"
                       required="required"
@@ -40,8 +41,9 @@ export const Contact = () => {
                     <input
                       type="email"
                       id="email"
+                      name="email"
                       className="form-control"
-                      placeholder="Email"
+                      placeholder="Your Email"
                       required="required"
                       onChange={onChange}
                     />
@@ -51,8 +53,8 @@ export const Contact = () => {
               </div>
               <div className="form-group">
                 <textarea
-                  name="message"
                   id="message"
+                  name="details"
                   className="form-control"
                   rows="4"
                   placeholder="Message"

@@ -1,12 +1,6 @@
-// with thanks to https://github.com/Urigo/graphql-modules/blob/8cb2fd7d9938a856f83e4eee2081384533771904/website/lambda/contact.js
-const process = require("process");
-const { promisify } = require("util");
-
-const sendMailLib = require("sendmail");
+const emailjs = require("emailjs-com");
 
 const { validateEmail, validateLength } = require("./validations");
-
-const sendMail = promisify(sendMailLib());
 
 const NAME_MIN_LENGTH = 3;
 const NAME_MAX_LENGTH = 50;
@@ -55,13 +49,14 @@ const handler = async (event) => {
     subject: `${body.name} sent you a message from gql-modules.com`,
     text: body.details,
   };
-
-  try {
-    await sendMail(descriptor);
-    return { statusCode: 200, body: "" };
-  } catch (error) {
-    return { statusCode: 500, body: error.message };
-  }
 };
 
-module.exports = { handler };
+const emailJsHandler = async (event) => {
+  console.log(emailjs);
+  emailjs.init("service_ms0k1ki");
+
+  console.log(event.body);
+  return { statusCode: 200 };
+};
+
+module.exports = { handler: emailJsHandler };

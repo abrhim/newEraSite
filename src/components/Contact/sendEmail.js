@@ -1,13 +1,13 @@
-export const sendEmail = (form) => {
-  const { email, message, name } = form;
-  if (email && message && name) {
-    console.log(process.env.NODE_ENV);
-    const url =
-      process.env.NODE_ENV === "development"
-        ? "./.netlify/functions"
-        : "./.netlify/functions";
-    postData(`${url}/sendEmail`, { email, details: message, name });
-  }
+import emailjs from "emailjs-com";
+
+export const sendEmail = async (form) => {
+  const formId = "#contactForm";
+  emailjs.sendForm(
+    "service_ms0k1ki",
+    "template_31dw65j",
+    formId,
+    "user_hNnpW7LJe9FY0UB3EerhN"
+  );
 };
 
 const formatEmail = () => {};

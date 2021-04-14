@@ -16,7 +16,7 @@ export const services = [
     img: "img/services/CustomConcrete.jpg",
     paragraph,
   },
-  { title: "Excavation", img: "img/services/Excavation.jpg", paragraph },
+  { title: "Brush Clearing", img: "img/services/Excavation.jpg", paragraph },
   {
     title: "Site Maintenance",
     img: "img/services/siteMaintenance.jpg",

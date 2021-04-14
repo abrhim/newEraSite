@@ -16,6 +16,7 @@
   "author": "Netlify",
   "license": "MIT",
   "dependencies": {
+    "emailjs-com": "^2.6.4",
     "sendmail": "1.6.1"
   }
 }
