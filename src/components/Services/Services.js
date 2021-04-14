@@ -12,7 +12,6 @@ export const Services = () => {
         </div>
         <div className="service-desc">
           <h3>{serv.title}</h3>
-          <p>{serv.paragraph}</p>
         </div>
       </div>
     );

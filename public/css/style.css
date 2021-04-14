@@ -282,9 +282,10 @@ header .intro-text {
   padding-right: 8px;
 }
 #about img {
-  padding: 20px;
+  padding: 10px;
   width: 500px;
   margin-top: 10px;
+  margin-right: 10px;
   background: #fff;
   border-right: 0;
   box-shadow: 0 0 50px rgba(0, 0, 0, 0.06);
@@ -351,6 +352,7 @@ header .intro-text {
   font-weight: 400;
   text-transform: uppercase;
 }
+/* 
 .hover-bg:hover .hover-text > h4 {
   opacity: 1;
   -webkit-backface-visibility: hidden;
@@ -359,7 +361,8 @@ header .intro-text {
 }
 .hover-bg:hover .hover-text {
   opacity: 1;
-}
+} */
+
 /* Testimonials Section */
 #testimonials {
   padding: 100px 0;
@@ -398,6 +401,56 @@ header .intro-text {
   font-weight: bold;
   text-transform: uppercase;
 }
+/*clients section */
+#clients {
+  padding: 100px 0 60px 0;
+  background: #1f386e;
+  color: rgba(255, 255, 255, 0.65);
+}
+.clientLogos {
+  display: flex;
+  align-items: center;
+  vertical-align: middle;
+}
+
+#contact .section-title {
+  margin-bottom: 40px;
+}
+#clients h2 {
+  color: #fff;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.09);
+}
+#clients h4 {
+  color: #fff;
+  margin-top: 22px;
+  margin-bottom: 60px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.09);
+}
+#clients form {
+  padding-top: 20px;
+}
+#clients h3 {
+  font-size: 17px;
+  font-weight: 600;
+}
+#clients .text-danger {
+  color: #cc0033;
+  text-align: left;
+}
+#clients .btn-custom {
+  margin: 30px 0;
+  background: transparent;
+  border: 2px solid #fff;
+}
+#clients .btn-custom:hover {
+  color: #1f386e;
+  background: #fff;
+}
+
 /* Contact Section */
 #contact {
   padding: 100px 0 60px 0;
