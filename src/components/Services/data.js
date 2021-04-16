@@ -16,12 +16,12 @@ export const services = [
     img: "img/services/CustomConcrete.jpg",
     paragraph,
   },
-  { title: "Brush Clearing", img: "img/services/Excavation.jpg", paragraph },
+  { title: "Brush Clearing", img: "img/services/brushClearing.jpg", paragraph },
   {
     title: "Site Maintenance",
-    img: "img/services/siteMaintenance.jpg",
+    img: "img/services/siteMaintenance2.jpg",
     paragraph:
       "We specialize in frame cleaning, drywall cleaning, masonry clean, and final clean.",
   },
-  { title: "Yard Grading", img: "img/services/yardGrading.jpg", paragraph },
+  { title: "Yard Grading", img: "img/services/yardGrading2.jpg", paragraph },
 ];

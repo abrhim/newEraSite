@@ -1,3 +1,8 @@
+:root {
+  --secondary-background-color: #000;
+  --secondary-text-color: #fff;
+}
+
 body,
 html {
   font-family: "Open Sans", sans-serif;
@@ -38,7 +43,7 @@ p.intro {
   line-height: 24px;
 }
 a {
-  color: #1f386e;
+  color: var(--secondary-text-color);
   font-weight: 400;
 }
 a:hover,
@@ -71,7 +76,7 @@ hr {
   transition: all 0.8s;
 }
 #menu.navbar-default {
-  background-color: #fff;
+  background-color: #000;
   border-color: rgba(231, 231, 231, 0);
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
 }
@@ -79,14 +84,14 @@ hr {
   font-family: "Montserrat", sans-serif;
   font-size: 32px;
   font-weight: 700;
-  color: #1f386e;
+  color: var(--secondary-text-color);
   text-transform: uppercase;
   letter-spacing: -1px;
 }
 #menu.navbar-default .navbar-nav > li > a {
   font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
-  color: #1f386e;
+  color: var(--secondary-text-color);
   font-size: 14px;
   font-weight: 700;
   padding: 8px 2px;
@@ -113,7 +118,7 @@ hr {
 #menu .phone span {
   font-size: 14px;
   display: block;
-  color: #1f386e;
+  color: var(--secondary-text-color);
 }
 .navbar-toggle {
   border-radius: 0;
@@ -225,7 +230,7 @@ header .intro-text {
 #get-touch {
   padding: 40px 0 30px;
   color: rgba(255, 255, 255, 0.7);
-  background: #1f386e;
+  background: var(--secondary-background-color);
 }
 #get-touch h3 {
   font-size: 24px;
@@ -239,7 +244,7 @@ header .intro-text {
   border: 2px solid #fff;
 }
 #get-touch .btn-custom:hover {
-  color: #1f386e;
+  color: var(--secondary-background-color);
   background: #fff;
   border: 2px solid #fff;
 }
@@ -282,7 +287,7 @@ header .intro-text {
   padding-right: 8px;
 }
 #about img {
-  padding: 10px;
+  /* padding: 10px; */
   width: 500px;
   margin-top: 10px;
   margin-right: 10px;
@@ -404,13 +409,19 @@ header .intro-text {
 /*clients section */
 #clients {
   padding: 100px 0 60px 0;
-  background: #1f386e;
+  background: var(--secondary-background-color);
   color: rgba(255, 255, 255, 0.65);
 }
 .clientLogos {
-  display: flex;
+  /* display: flex; */
   align-items: center;
   vertical-align: middle;
+}
+
+@media (min-width: 992px) {
+  .clientlogos {
+    display: flex;
+  }
 }
 
 #contact .section-title {
@@ -446,15 +457,11 @@ header .intro-text {
   background: transparent;
   border: 2px solid #fff;
 }
-#clients .btn-custom:hover {
-  color: #1f386e;
-  background: #fff;
-}
 
 /* Contact Section */
 #contact {
   padding: 100px 0 60px 0;
-  background: #1f386e;
+  background: var(--secondary-background-color);
   color: rgba(255, 255, 255, 0.65);
 }
 #contact .section-title {
