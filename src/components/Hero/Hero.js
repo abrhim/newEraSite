@@ -9,11 +9,9 @@ export const Hero = () => {
             <div className="container">
               <div className="row">
                 <div className="col-md-12 intro-text">
-                  <h1>
-                    New Era
-                    <br /> Contracting
-                  </h1>
-                  <p>Austin Area residential contractor working for you.</p>
+                  <h1>New Era Contracting</h1>
+                  <h2>Concrete and Excavation</h2>
+                  {/* <p>Austin Area residential contractor working for you.</p> */}
                   {/* <a
                     href="#about"
                     className="btn btn-custom btn-lg page-scroll"

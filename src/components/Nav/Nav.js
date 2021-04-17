@@ -16,7 +16,16 @@ export const Nav = () => {
             <span className="icon-bar"></span>{" "}
           </button>
           <a className="navbar-brand page-scroll col-sm" href="#page-top">
-            New Era
+            <object
+              // type="image/svg+xml"
+              data="img/newEraLogo.svg"
+              width={300}
+              height={100}
+              alt="New Era Logo"
+              id="ne-logo"
+            >
+              New Era
+            </object>
           </a>
           <div className="phone col-sm">
             <a href="tel:5125060122">

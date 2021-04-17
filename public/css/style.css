@@ -1,5 +1,8 @@
 :root {
-  --secondary-background-color: #000;
+  --primary-background-color: #fff;
+  --secondary-background-color: #000000;
+  --tertiary-background-color: #c4c6c8;
+
   --secondary-text-color: #fff;
 }
 
@@ -192,7 +195,7 @@ a:focus,
   display: table;
   width: 100%;
   padding: 0;
-  background: url(../img/intro-bg.jpg) center center no-repeat;
+  background: url(../img/neweracover.jpg) center center no-repeat;
   background-color: #e5e5e5;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -226,6 +229,9 @@ header .intro-text {
   padding-bottom: 150px;
   text-align: center;
 }
+.intro-text h2 {
+  color: var(--secondary-text-color);
+}
 /* Get Touch Section */
 #get-touch {
   padding: 40px 0 30px;
@@ -251,7 +257,7 @@ header .intro-text {
 /* About Section */
 #about {
   padding: 110px 0;
-  background: #f6f6f6;
+  background: var(--primary-background-color);
 }
 #about h3 {
   font-size: 22px;
@@ -302,6 +308,7 @@ header .intro-text {
 /* Services Section */
 #services {
   padding: 100px 0;
+  background-color: var(--primary-background-color);
 }
 #services .service-media {
   margin: 10px;
@@ -408,8 +415,8 @@ header .intro-text {
 }
 /*clients section */
 #clients {
-  padding: 100px 0 60px 0;
-  background: var(--secondary-background-color);
+  padding: 50px 0 50px 0;
+  background: var(--tertiary-background-color);
   color: rgba(255, 255, 255, 0.65);
 }
 .clientLogos {
@@ -424,11 +431,15 @@ header .intro-text {
   }
 }
 
+#ne-logo {
+  margin-top: -35;
+  margin-bottom: 25;
+}
 #contact .section-title {
   margin-bottom: 40px;
 }
 #clients h2 {
-  color: #fff;
+  color: #000;
   margin-top: 10px;
   margin-bottom: 15px;
   padding-bottom: 15px;
@@ -587,6 +598,9 @@ label {
 @media (max-width: 768px) {
   #about img {
     margin: 50px 0;
+  }
+  #about {
+    padding: 50px 0;
   }
 }
 
