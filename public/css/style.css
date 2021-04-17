@@ -1,9 +1,11 @@
 :root {
   --primary-background-color: #fff;
   --secondary-background-color: #000000;
-  --tertiary-background-color: #c4c6c8;
+  --tertiary-background-color: #e8e9ea;
 
   --secondary-text-color: #fff;
+  --tertiary-text-color: #e8e9ea;
+  --fourthery-text-color: #ffcd4b;
 }
 
 body,
@@ -46,13 +48,13 @@ p.intro {
   line-height: 24px;
 }
 a {
-  color: var(--secondary-text-color);
+  color: var(--tertiary-text-color);
   font-weight: 400;
 }
 a:hover,
 a:focus {
   text-decoration: none;
-  color: #e52f3c;
+  color: var(--fourthery-text-color);
 }
 ul,
 ol {
@@ -87,14 +89,14 @@ hr {
   font-family: "Montserrat", sans-serif;
   font-size: 32px;
   font-weight: 700;
-  color: var(--secondary-text-color);
+  color: var(--tertiary-text-color);
   text-transform: uppercase;
   letter-spacing: -1px;
 }
 #menu.navbar-default .navbar-nav > li > a {
   font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
-  color: var(--secondary-text-color);
+  color: var(--tertiary-text-color);
   font-size: 14px;
   font-weight: 700;
   padding: 8px 2px;
@@ -102,12 +104,12 @@ hr {
   margin: 9px 20px 0 20px;
 }
 #menu.navbar-default .navbar-nav > li > a:hover {
-  color: #ce2a36;
+  color: var(--fourthery-text-color);
 }
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-  color: #ce2a36 !important;
+  color: var(--fourthery-text-color) !important;
   background-color: transparent;
 }
 #menu .phone {
@@ -116,12 +118,12 @@ hr {
   float: left;
   font-size: 16px;
   font-weight: 400;
-  color: #999;
+  color: var(--tertiary-text-color);
 }
 #menu .phone span {
   font-size: 14px;
   display: block;
-  color: var(--secondary-text-color);
+  color: var(--tertiary-text-color);
 }
 .navbar-toggle {
   border-radius: 0;
@@ -207,7 +209,7 @@ a:focus,
 }
 .intro h1 {
   font-family: "Montserrat", sans-serif;
-  color: #fff;
+  color: var(--tertiary-text-color);
   font-size: 62px;
   font-weight: 700;
   margin-top: 0;
@@ -215,7 +217,7 @@ a:focus,
   text-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
 }
 .intro p {
-  color: #fff;
+  color: var(--tertiary-text-color);
   font-size: 17px;
   line-height: 28px;
   padding: 15px;
@@ -230,7 +232,7 @@ header .intro-text {
   text-align: center;
 }
 .intro-text h2 {
-  color: var(--secondary-text-color);
+  color: var(--tertiary-text-color);
 }
 /* Get Touch Section */
 #get-touch {
@@ -241,23 +243,27 @@ header .intro-text {
 #get-touch h3 {
   font-size: 24px;
   font-weight: 400;
-  color: #fff;
+  color: var(--tertiary-text-color);
   margin: 0 0 10px 0;
+}
+#get-touch p {
+  color: var(--tertiary-text-color);
 }
 #get-touch .btn-custom {
   margin: 0;
+  color: var(--tertiary-text-color);
   background: transparent;
-  border: 2px solid #fff;
+  border: 2px solid var(--tertiary-text-color);
 }
 #get-touch .btn-custom:hover {
   color: var(--secondary-background-color);
-  background: #fff;
-  border: 2px solid #fff;
+  background: var(--tertiary-text-color);
+  border: 2px solid var(--tertiary-text-color);
 }
 /* About Section */
 #about {
   padding: 110px 0;
-  background: var(--primary-background-color);
+  background: var(--tertiary-background-color);
 }
 #about h3 {
   font-size: 22px;
@@ -293,11 +299,9 @@ header .intro-text {
   padding-right: 8px;
 }
 #about img {
-  /* padding: 10px; */
   width: 500px;
   margin-top: 10px;
   margin-right: 10px;
-  background: #fff;
   border-right: 0;
   box-shadow: 0 0 50px rgba(0, 0, 0, 0.06);
 }
