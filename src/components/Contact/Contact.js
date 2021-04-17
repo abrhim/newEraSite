@@ -77,18 +77,18 @@ export const Contact = () => {
         <div className="col-md-3 col-md-offset-1 contact-info">
           <div className="contact-item">
             <h4>Contact Info</h4>
+            <div className="contact-item">
+              <p>
+                <span>Phone</span>{" "}
+                <a className="contactPhone" href="tel:5125060122">
+                  +1 512 506 0122
+                </a>
+              </p>
+            </div>
             <p>
               <span>Address</span>4100 Prairie Ln,
               <br />
               Austin, TX, 78728
-            </p>
-          </div>
-          <div className="contact-item">
-            <p>
-              <span>Phone</span>{" "}
-              <a className="contactPhone" href="tel:5125060122">
-                +1 512 506 0122
-              </a>
             </p>
           </div>
           <div className="contact-item">

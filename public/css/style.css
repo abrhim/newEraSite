@@ -19,14 +19,12 @@ html {
   height: 100% !important;
 }
 h2 {
-  font-family: "Montserrat", sans-serif;
   margin: 0 0 20px 0;
   font-weight: 700;
   font-size: 32px;
   color: #333;
 }
 h3 {
-  font-family: "Montserrat", sans-serif;
   font-size: 22px;
   font-weight: 700;
   color: #333;
@@ -120,6 +118,7 @@ hr {
   font-weight: 400;
   color: var(--tertiary-text-color);
 }
+
 #menu .phone span {
   font-size: 14px;
   display: block;
@@ -311,7 +310,7 @@ header .intro-text {
 }
 /* Services Section */
 #services {
-  padding: 100px 0;
+  padding: 50px 0;
   background-color: var(--primary-background-color);
 }
 #services .service-media {
@@ -419,7 +418,7 @@ header .intro-text {
 }
 /*clients section */
 #clients {
-  padding: 50px 0 50px 0;
+  padding: 50px 0 60px 0;
   background: var(--tertiary-background-color);
   color: rgba(255, 255, 255, 0.65);
 }
@@ -435,9 +434,21 @@ header .intro-text {
   }
 }
 
+#ne-logo-bottom {
+  height: 70px;
+}
 #ne-logo {
-  margin-top: -35;
+  margin-top: -25;
   margin-bottom: 25;
+  height: 70;
+}
+@media (max-width: 768px) {
+  #ne-logo {
+    margin-top: -62;
+  }
+  #menu .phone {
+    margin-top: -20px;
+  }
 }
 #contact .section-title {
   margin-bottom: 40px;
@@ -447,7 +458,7 @@ header .intro-text {
   margin-top: 10px;
   margin-bottom: 15px;
   padding-bottom: 15px;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.09);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.09);
 }
 #clients h4 {
   color: #fff;

@@ -10,7 +10,7 @@ export const Hero = () => {
               <div className="row">
                 <div className="col-md-12 intro-text">
                   <h1>New Era Contracting</h1>
-                  <h2>Concrete and Excavation</h2>
+                  <h2>Concrete and Excavation for the Austin Area</h2>
                   {/* <p>Austin Area residential contractor working for you.</p> */}
                   {/* <a
                     href="#about"
